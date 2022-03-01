@@ -122,8 +122,7 @@ public class ServeurImage extends JFrame {
             x2 = Integer.parseInt(decompositionReq[2]);
             x3 = Integer.parseInt(decompositionReq[3]);
             x4 = Integer.parseInt(decompositionReq[4]);
-            rayon = Integer.parseInt(decompositionReq[5]);
-            couleur = decompositionReq[4];
+            couleur = decompositionReq[5];
             dessineRectangle(x1,x2,x3,x4,couleur);
         }
     }
